@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  li{
+    list-style: none;
+  }
+  body {
+    background-color: #5d4257;
+    background-image: linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%);
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .form-box {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.4);
+    /*filter: brightness(100%);*/
+    width: 380px;
+    height: 515px;
+    position: relative;
+    margin: 4% auto;
+    background: #339989;
+    padding: 5px;
+    overflow: hidden;
+  }
+  .button-box {
+    width: 120px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+  }
+  .toggle-btn {
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+  }
+  
+  #btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background: linear-gradient(to right, #131515, #2b2c2b);
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+  .social-icons {
+    margin: 30px auto;
+    text-align: center;
+  }
+  .social-icons a {
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #131515;
+  }
+  .submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #131515, #2b2c2b);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+  }
+  ::placeholder {
+    color: #000000;
+  }
+  .input-field {
+    width: 80%;
+    padding: 10px 0;
+    margin: 5px 30px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999999;
+    outline: none;
+    background: transparent;
+  }
